@@ -1,0 +1,13 @@
+package com.tutorial.java;
+
+public class InheritanceUsageInJava {
+
+	public static void main(String[] args) {
+
+		Cat cat=new Cat("Tom",2);
+		cat.eat();
+		cat.sleep();
+		cat.meow();
+	}
+
+}
