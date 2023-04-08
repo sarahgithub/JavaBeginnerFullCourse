@@ -1,0 +1,13 @@
+package com.tutorial.java;
+
+public class Cat extends Animal{
+
+	Cat(String name, int age) {
+		super(name, age);
+	}
+	
+	public void meow() {
+		System.out.println("meow");
+	}
+
+}
