@@ -1,0 +1,23 @@
+package com.tutorial.java;
+
+public interface Vehicle {
+	
+	//constants
+	int MAX_SPEED=100;
+	
+	//abstract methods
+	void start();
+	void stop();
+	
+	//static methods
+	static void print() {
+		System.out.println("This is vehicle interface");
+	}
+	
+	//default methods
+	default void turnOnRadio()
+	{
+		System.out.println("Radio is on");
+	}
+
+}
