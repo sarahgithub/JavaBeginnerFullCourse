@@ -1,0 +1,19 @@
+package com.tutorial.java;
+
+import com.tutorial.Employees.Employee;
+
+public class ClassUsageInJava {
+
+	public static void main(String[] args) {
+
+		Employee emp1=new Employee("Teddy",25);
+		Employee emp2=new Employee();
+		emp2.setName("Fred");
+		emp2.setAge(30);
+		
+		System.out.println("Emp1 Name: " + emp1.getName() + " Age: " + emp1.getAge());
+		System.out.println("Emp2 Name: " + emp2.getName() + " Age: " + emp2.getAge());
+
+	}
+
+}
