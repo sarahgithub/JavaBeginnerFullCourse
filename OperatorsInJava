@@ -1,0 +1,57 @@
+package com.tutorial.java;
+
+public class OperatorsInJava {
+
+	public static void main(String[] args) {
+		
+		//Arithmetic Operators (+,-,*,/,%)
+		int operand1=10;
+		int operand2=5;
+		int result= operand1 + operand2;
+		System.out.println(result);
+		result= operand1 - operand2;
+		System.out.println(result);
+		result= operand1 * operand2;
+		System.out.println(result);
+		result=operand1 /operand2;
+		System.out.println(result);
+		result=operand1 % operand2;
+		System.out.println(result);
+
+
+
+		//Unary Operators ++,--
+		result= ++operand1;
+		System.out.println(result);
+		result= operand2++;
+		System.out.println(result);
+
+		
+		//Equality and Relational operators(>,>=,<,<=,!)
+		operand1=10;
+		operand2=10;
+		if(operand1 > operand2)
+			System.out.println("Operand1 is greater");
+		if(operand1 >= operand2)
+			System.out.println("Operand1 is greater and equal to ");
+		if(operand1 < operand2)
+			System.out.println("Operand1 is less");
+		if(operand1 <= operand2)
+			System.out.println("Operand1 is less than equal to");
+		if(operand1 == operand2)
+			System.out.println("Operands are equal");
+		if(operand1 != operand2)
+			System.out.println("Operands are not equal");
+		
+        //Conditional Operators ( && , || )
+		operand1=10;
+		operand2=10;
+		int operand3=10;
+		int operand4=15;
+		if((operand1 == operand2) && (operand3 > operand4))
+			System.out.println("condition is true");
+		if((operand1 == operand2) || (operand3 > operand4))
+			System.out.println("condition is true for ||");
+	}
+
+}
