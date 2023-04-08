@@ -1,0 +1,57 @@
+package com.tutorial.java;
+
+public class ControlFlowStatementsInJava {
+
+	public static void main(String[] args) {
+		// if-else statement
+		int testScore = 95;
+		if (testScore > 90) {
+			System.out.println("Grade A");
+		} else {
+			System.out.println("Grade B");
+		}
+
+		// switch statement
+		testScore = 50;
+		switch (testScore) {
+		case 90:
+			System.out.println("Grade A");
+			break;
+		case 80:
+			System.out.println("Grade B");
+			break;
+		case 60:
+			System.out.println("Grade C");
+			break;
+		default:
+			System.out.println("Grade D");
+
+		}
+
+		// while, do while statement
+		int number=10;
+		while(number>0)
+		{
+			System.out.print(number + " ");
+			number--;
+		}
+		System.out.println();
+		
+		// do-while
+		number=10;
+		do {
+			System.out.print(number + " ");
+			number--;
+		}while(number>0);
+
+		System.out.println();
+
+		// for statement
+		for(int j=0;j<=10;j++)
+		{
+			System.out.print(j + " ");
+		}
+
+	}
+
+}
