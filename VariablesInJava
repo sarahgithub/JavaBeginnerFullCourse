@@ -1,0 +1,43 @@
+package com.tutorial.java;
+
+public class VariablesInJava {
+
+	public static void main(String[] args) {
+
+		//Variables store data 
+		//int variable stores numbers
+		int numbers=34;
+		System.out.println(34);
+        
+		//There are other datatypes to store numbers
+		//like byte,short,int,long,float,double.
+		
+		float decimalNumber=3.4f;
+		System.out.println(decimalNumber);
+
+		
+		
+	
+	    //boolean to store true/false
+		boolean status=true;
+		System.out.println(status);
+		status=false;
+		System.out.println(status);
+
+
+		
+		//char to store characters
+	     char charac ='z';
+			System.out.println(charac);
+
+
+		//String to store words or sentences
+			String day="Monday 04/05";
+			System.out.println(day);
+			
+			String sentence="It is a beautiful day";
+			System.out.println(sentence);
+		
+	}
+
+}
