@@ -1,0 +1,22 @@
+package com.tutorial.java;
+
+public class Animal {
+	
+	String name;
+	int age;
+	
+	Animal(String name, int age)
+	{
+		this.name=name;
+		this.age=age;
+	}
+	
+	public void eat() {
+		System.out.println("eating");
+	}
+	
+	public void sleep() {
+		System.out.println("sleeping");
+	}
+
+}
