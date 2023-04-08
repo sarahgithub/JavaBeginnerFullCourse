@@ -1,0 +1,13 @@
+package com.tutorial.java;
+
+public class InterfaceUsageInJava {
+
+	public static void main(String[] args) {
+
+		Vehicle car=new Car();
+		car.start();
+		car.stop();
+		car.turnOnRadio();
+	}
+
+}
